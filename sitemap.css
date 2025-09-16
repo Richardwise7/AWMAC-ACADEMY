@@ -4,6 +4,7 @@ body {
     background-position: center;
     height: auto;
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -148,3 +149,4 @@ p{
         padding: 10px;
 
 }
+
