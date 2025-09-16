@@ -1,0 +1,147 @@
+body {
+    background-image: url('b.jpg');
+    background-size:cover;
+    background-position: center;
+    
+    width: 100%;
+}
+
+.nav {
+      color: white;
+    padding: 4px;
+    display: flex;
+    justify-content:flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    width: 100%;
+    }
+
+    .nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav ul li {
+      position: relative;
+    }
+
+    .nav ul li a {
+      display: block;
+      padding: 12px 20px;
+      color: #031a3d;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .nav ul li a:hover {
+      transition: ease-in-out 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    color: rgb(230, 18, 11);
+    }
+
+    /* Dropdown Menu */
+    .nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgba(173, 216, 230, 1.0);
+      min-width: 200px;
+      flex-direction: column;
+      z-index: 1000;
+    }
+
+    .nav ul li ul li a {
+      padding: 10px 15px;
+      border-bottom: 1px solid #fff;
+    }
+
+    .nav ul li:hover ul {
+      display: flex;
+    }
+
+    /* Optional Styling */
+    .nav ul li ul li a:hover {
+      background: #005bbb;
+      color: rgb(226,230,11);
+    }
+
+
+    .Active {
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+   background-color: rgba(173, 216, 230, 0.8);
+    
+}
+
+
+        .content{
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 1000px;
+   max-height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   padding: 20px;
+}
+
+    .problems-list{
+    
+        padding-left: 20px;
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #000000;
+    }
+h1{
+    color: rgb(3, 18, 85);
+    font-size: 2.5rem;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: #005bbb 2px solid;
+    padding-bottom:4px;
+} 
+
+
+    h2{
+    color: rgb(3, 18, 85);
+    font-size: 2.5rem;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom:2px;
+} 
+
+p{
+    font-size: 28px;
+    line-height: 1.6;
+    color: #0f0f0f;
+}
+
+.submit{
+    display:inline-block; 
+    padding:12px 24px; 
+    font-size:26px; 
+    font-family:Arial, sans-serif; 
+          background-color:#4CAF50; 
+          color:white; 
+          text-decoration:none; 
+          border-radius:8px; 
+          box-shadow:0 4px 6px rgba(0,0,0,0.2); 
+            margin-left: 330px;
+}
+
+.submit:hover{
+    background-color:#45a049; 
+    box-shadow:0 6px 8px rgba(0,0,0,0.3); 
+    transform:translateY(-2px); 
+    transition:all 0.3s ease; 
+}
+
+.submit-info{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(3, 18, 85);
+    margin-top: 10px;
+}
