@@ -23,14 +23,12 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     top: 0;
     width: 100%;
-    
 
     }
 
     .nav ul {
       list-style: none;
       display: flex;
-    
     }
 
     .nav ul li {
@@ -45,7 +43,6 @@ body {
       display: block;
       padding: 12px 20px;
       font-size: 20px;
-      
     }
 
     .nav ul li a:hover {
@@ -84,8 +81,9 @@ body {
 
 .Active {
     border-radius: 7px;
+    color: white;
     font-weight: bold;
-   background-color: rgba(158, 212, 229, 0.8);
+   background-color: rgba(173, 216, 230, 0.8);
     
 }
 
@@ -93,7 +91,7 @@ body {
   
   text-align: center;          
   font-family: 'Poppins', sans-serif; 
-  font-size: 3.2rem;            
+  font-size: 3.5rem;            
   font-weight: 700;            
   color: #ffffff;              
   background: rgba(0, 102, 204, 0.7);
@@ -107,7 +105,7 @@ body {
 .course-content {
   display: inline-block;
   font-family: 'Poppins', sans-serif; 
-  font-size: 3.2rem;            
+  font-size: 3.5rem;            
   font-weight: 700;            
   color: #ffffff;              
   background: rgba(0, 102, 204, 0.7);
@@ -319,5 +317,6 @@ button:hover {
 .footer-contact{
   padding-right: 60px;
 }
+
 
   
