@@ -2,7 +2,7 @@ body {
     background-image: url('b.jpg');
     background-size:cover;
     background-position: center;
-    
+    height: auto;
     width: 100%;
 }
 
@@ -146,4 +146,5 @@ p{
         margin-top: 5px;
         text-align: center;
         padding: 10px;
+
 }
